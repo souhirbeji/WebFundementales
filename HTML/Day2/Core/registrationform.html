@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+</head>
+<body>
+    <h1> Registration Form </h1>
+    <form>
+        <div>
+            <label> First Name: </label>
+            <input type="text" name=" First Name" placeholder="" required ><br> 
+            <br> <label> Last Name : </label>
+            <input type ="text" name="Last Name" placeholder="" required ><br> 
+            <br>
+            <label> Email Address: </label>
+            <input type="text" name="Email" placeholder="" required><br> 
+            <br>
+            <label> Password: </label>
+            <input type="text" name="password" placeholder="" required><br> 
+            <br>
+            <label> Confirm Password:  </label>
+            <input type ="password" name="Passwordconfirmation" placeholder="" required><br> 
+            <br>
+            <label> Birthday: </label>
+            <input type="date" name="Birthday">
+            <br>
+            <br> <label> Gender Identity:</label>
+            <input type="radio" name="gender " value="Male" id="Male">
+            <label for="Male"> Male</label>
+            <input type="radio" name="gender " value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender " value="Non-binary" id="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="gender " value="pnts" id="pnts">
+            <label for="pnts">I prefer not to answer</label>
+            <br>
+            <br> <label> A short description about myself </label>
+            <br>
+            <textarea name="short description" cols="50" rows="3"></textarea>
+            <br>
+            <br><label> Favourite Language: </label>
+            <select name="Language ">
+                <option value="Javascript">Javascript </option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+            <br>
+            <br><input type="checkbox" name="permission" id="permission" checked >
+            <label for="permession">Yes,I would like to receive periodic email updates </label><br>
+            <br><input type="submit" value="Create Account"  required>
+            
+            <textarea name="short description" cols="50" rows="3"></textarea>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
