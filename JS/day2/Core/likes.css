@@ -1,0 +1,38 @@
+*{ font-style: italic;
+    margin: 0 px;
+    padding: 0 px;
+}
+#paragraph{
+    margin-right: 40px;
+    margin-left: 30px; 
+}
+#title{
+    margin-left: 30px; 
+}
+.container{
+
+    border: Solid black ;
+    height: 140px;
+    width: 350px;
+}
+.user{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.like{
+    margin-right: 30px;
+    gap: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.btnlike{
+    background-color:#ffd966;
+    height:30px;
+    width: 70px;
+    box-shadow: 5px 5px 5px black;
+
+    
+}
