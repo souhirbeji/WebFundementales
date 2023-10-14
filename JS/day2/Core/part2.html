@@ -7,20 +7,58 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="Header">
             <div class="navbar">
                     <h1>Network</h1>
             </div>
-<h1 class="centered">Your Feed</h1>
-<div class="left">
-    <div class="user">
-        <img src="icons/user-circle.png" alt="user" class="avatar-m">
-        <p><a href="#">Add an avatar</a></p>
-        <h2>John Doe</h2>
     </div>
+            <main> 
+                <div class="title"><h2 class="centered">Your Feed</h2></div>
 
-    
+                        <div class="left">
+                            <div class="avatar">
+                                <img src="User-avatar.svg.png" alt="user" class="avatar-m" id="ninja">
+                                <p><a href="#">Add an avatar</a></p>
+                                <h2>John Doe</h2>
+                            </div>
+                            <div class="profiles">
+                                <div class="container">
+                                    <div class="user">
+                                        <h2 id="title">Neil M</h2>
+                                        <div class="like">
+                                            <p id="likeCount1">9 like(s)</p>
+                                            <button class="btnlike" onclick="like1()">Like</button>
+                                        </div>
+                                        </div>
+                                        <p class="paragraph">i just set up this discord bot , let me know what you all think
+                                            <a href="#">link</a>
+                                        </p>
+                                </div>
+                                <div class="container">
+                                    <div class="user">
+                                        <h2 id="title">Nichole K </h2>
+                                        <div class="like">
+                                            <p id="likeCount2"> 12 like(s)</p>
+                                            <button class="btnlike" onclick="like2()">Like</button>
+                                        </div>
+                                    </div>
+                                    <p class="paragraph">just finished my <a href="#">next comic</a>, check it out  </p>
+                            </div>
+                            <div class="container">
+                                <div class="user">
+                                    <h2 id="title">Jim R  </h2>
+                                    <div class="like">
+                                        <p id="likeCount3"> 9 like(s)</p>
+                                        <button class="btnlike" onclick="like3()">Like</button>
+                                    </div>
+                                </div>
+                                <p class="paragraph">I can't stop to the <a href="#"> new album</a> who else liking it ? </p>
+                        </div>
+                            </div>
+                        </div>
+                </div>
 </div>
-</div>
+</main>
+<script src="part2.js"></script>
 </body>
 </html>
