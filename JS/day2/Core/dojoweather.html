@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojoweather.css">
+    <title>Document</title>
+</head>
+<body>
+                <div class="navbar">
+                    <h2 class="weather">DojoWeather</h2>
+                    <ul class="list">
+                        <li onclick="alert('loading weather report ...')""> burbank </li>
+                        <li onclick="alert('loading weather report ...')"> Chicago</li>
+                        <li onclick="alert('loading weather report ...')"> Dallas  </li>
+                    </ul>
+                </div>
+        <div class="main">      
+                <div class="inside">
+                    <div class="sanjose">
+                        <h3 >San Jose</h3>
+                    </div>
+                    <div class="liste">
+                    <label> Show tempertaure in </label>
+                    <select class="temp" onchange="cel2far()" id="conversionSelect">
+                        <option  class="spann1" onchange="cel2far()" >C</option>
+                        <option class="spann2" onchange="cel2far()" >farenheit</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="firstClass">
+                        <h2 class="day"> Today</h2>
+                        <img src="assets/some_rain.png" alt="cloud">
+                        <h3> Some Rain </h3> 
+                        <div class="spann">
+                            <span class="spann1">24</span>
+                            <span class="spann2">18</span></div>
+                    </div>
+                    <div class="firstClass">
+                        <h2 class="day"> Tomorrow</h2>
+                        <img src="assets/some_sun.png" alt="cloud">
+                        <h3> Some Rain </h3> 
+                        <div class="spann">
+                            <span class="spann1">27</span>
+                            <span class="spann2">19</span></div>
+                    </div>
+                    <div class="firstClass">
+                        <h2 class="day"> friday</h2>
+                        <img src="assets/some_clouds.png" alt="cloud">
+                        <h3> Some Rain </h3> 
+                        <div class="spann">
+                            <span class="spann1">21</span>
+                            <span class="spann2">16</span></div>
+                    </div>
+                    <div class="firstClass">
+                        <h2 class="day"> Saturday</h2>
+                        <img src="assets/some_sun.png" alt="cloud">
+                        <h3> Some Rain </h3> 
+                        <div class="spann">
+                            <span class="spann1">26</span>
+                            <span class="spann2">21</span></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="assets/cookie.png" id="cookie">
+                        <div class="content">
+                            <h3>Stop! Cookie time</h3>
+                            <p>
+                                we use cookies ( sadly not the edible ones ) to personalize content and ads , to provide social features and to ananlyse our traffic . <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="accept"onclick="dismiss()"> I accept </button>
+                    </div>
+</div>         
+<script src="dojoweather.js"></script>
+</body>
+</html>

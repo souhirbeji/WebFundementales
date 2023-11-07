@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: rgb(156, 193, 228);
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+
+}
+.weather{
+    display: flex;
+}
+.list{
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+/* this code above is for the navbar  */
+.inside{  
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: solid black;
+}
+.sanjose{
+    display: flex;
+    font-size: 35px;
+    justify-content: flex-start;
+    
+}
+.liste{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    
+
+
+}
+.temp{
+    height: 30px;
+    width:40px;
+}
+.cards{
+
+    margin-top: 20px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    row-gap: 20px;
+    justify-content: space-between;
+
+
+}
+img{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+.firstClass{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 202, 202);
+
+}
+.day{
+    margin-top: 10px;
+}
+.spann{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap:120px ;
+}
+.spann1{
+    color: Red;
+
+    font-size: 25px;
+}
+.spann2{
+    color:blue;
+    font-size: 25px;
+}
+.main{
+    margin: 20px 200px ;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: solid black ;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.accept{
+width:100px;
+height:30px;
+color: black;
+background-color: aqua;
+box-shadow: black;
+margin:25px;
+}
+#cookie{
+    height: 60px;
+    width: 100px;
+    margin:20px;
+}
